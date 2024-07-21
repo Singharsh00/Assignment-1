@@ -1,0 +1,122 @@
+/* 
+ * Arshkirat Singh
+ * Student Number: 8976326
+ */
+
+/* Root element */
+html {
+    font: 20px/1.5 "Helvetica Neue", Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Body */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 0.1rem solid #ccc;
+}
+
+/* Header & Footer */
+header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 1em;
+    text-align: center;
+}
+
+footer {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    padding: 0.5em;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+/* Headings */
+h1, h2 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+/* Quotes */
+q {
+    font-variant: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Georgia', serif;
+    color: #555;
+    border: 0.1rem solid #ccc;
+    box-shadow: 3px 3px 5px #aaa;
+}
+
+/* Figure & Image */
+figure {
+    border: 0.1rem solid #ccc;
+    border-radius: 1em;
+    background-color: #fafafa;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+img {
+    border-radius: 1em;
+    width: 100%;
+}
+
+figcaption {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: #666;
+    text-align: center;
+}
+
+/* Video */
+iframe {
+    border: 0.1rem solid #ccc;
+    border-radius: 1em;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #007bff;
+    line-height: 1.5;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.form-label {
+    font-variant: small-caps;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control {
+    padding: 0.5em;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5em;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+}
